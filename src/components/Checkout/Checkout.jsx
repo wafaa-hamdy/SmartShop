@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useFormik } from "formik";
-import { CartContext } from "../../Context/usercontext_temp";
+import { CartContext } from "../../Context/CartContext";
 
 export default function Checkout() {
   let { cartId } = useContext(CartContext);

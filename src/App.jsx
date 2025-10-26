@@ -17,7 +17,7 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import {QueryClient,QueryClientProvider} from "@tanstack/react-query";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import WishList from './components/WishList/WishList';
-import CartContextProvider from './Context/usercontext_temp';
+import CartContextProvider from './Context/CartContext';
 import { Toaster } from 'react-hot-toast';
 import Checkout from './components/Checkout/Checkout';
 import Allorders from "./components/AllOrders/Allorders";

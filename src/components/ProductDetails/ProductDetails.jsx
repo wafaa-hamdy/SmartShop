@@ -4,7 +4,7 @@ import axios from "axios";
 import Slider from "react-slick";
 import { WishlistContext } from "../../Context/WishlistContext"; 
 import { Heart } from "lucide-react";
-import { CartContext } from "../../Context/usercontext_temp";
+import { CartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";
 
 export default function ProductDetails() {

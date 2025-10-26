@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import useProducts from "../../Hooks/useProducts";
-import { CartContext } from "../../Context/usercontext_temp";
+import { CartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";
 import { WishlistContext } from "../../Context/WishlistContext";
 import { Heart } from "lucide-react";
