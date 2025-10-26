@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { WishlistContext } from "../../Context/WishlistContext";
-import { CartContext } from "../../Context/CartContext";
+import { CartContext } from "../../Context/usercontext_temp";
 import toast, { Toaster } from "react-hot-toast";
 
 function WishlistPage() {
