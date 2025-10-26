@@ -5,7 +5,7 @@ import * as yup from "yup"
 import axios from "axios"
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom';
-import { UserContext } from '../../Context/Usercontext';
+import { UserContext } from '../../Context/UserContext';
 import { AllOrdersContext } from '../../Context/AllordersContext';
 
 export default function Register() {

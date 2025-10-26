@@ -11,7 +11,7 @@ import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Notfound from './components/Notfound/Notfound';
 import CounterContextProvider from './Context/CounterContext';
-import UserContextProvider from './Context/Usercontext';
+import UserContextProvider from './Context/UserContext';
 import ProtectedRoute from './components/protectedRoute/protectedRoute';
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import {QueryClient,QueryClientProvider} from "@tanstack/react-query";
